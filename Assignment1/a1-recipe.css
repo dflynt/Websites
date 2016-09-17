@@ -1,0 +1,57 @@
+body{
+	background-color: #D3D3D3;
+}
+
+img{
+	display: block;
+	margin: auto;
+	height: 50%;
+	width: 50%;
+}
+
+p{
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+table{
+	text-align: left;
+	width: 100%
+	table-layout: fixed;	
+	font-size: 14px
+}
+td{
+	font-family: "Helvetica Neue", Helvetica;
+	font-size: 16;
+	word-wrap: break-word;
+}
+
+.ingredients{
+	text-align: left;
+	font-size: 18px;
+}
+
+.ingredients:hover{
+	color: green;
+}
+
+.directions{
+	font-size: 18px;
+	text-align: left;
+}
+
+.directions:hover{
+	color: white;
+}
+
+.notes{
+	text-align: left;
+}
+
+.notes:hover{
+	color: red;
+}
+
+hr{
+	border-width: 3px;
+}
