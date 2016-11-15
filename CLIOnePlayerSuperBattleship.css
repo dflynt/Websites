@@ -1,0 +1,90 @@
+#map_panel {
+    width: 60%;
+    float: left;
+}
+
+#map_view {
+    height: 800px;
+}
+
+.button{
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+}
+
+body{
+  background-color: #294796;
+  color: white;
+  font-family: AvenirNext-Regular;
+}
+
+.fleetInfo
+{
+  text-align: center;
+}
+
+.fleetInfo th{
+  width: 20%;
+}
+
+.fleetInfo td{
+  text-align: center;
+}
+
+
+.gameOutput
+{
+  float: left;
+  height: 90px;
+  width: 300px;
+  overflow: auto;
+}
+#shootAt
+{
+  float: left;
+}
+
+table td
+{
+  width: 10px;
+  height: 10px;
+}
+#gameTable td:hover{
+  background: white;
+}
+#miss{
+  background-color: yellow;
+}
+
+#invisible
+{
+  background-color: #03104F;
+}
+
+#playerOne
+{
+  background-color: grey;
+}
+
+#playerOneX
+{
+  background-color: blue;
+}
+
+#playerTwo
+{
+  background-color: orange;
+}
+
+#playerTwoX
+{
+  background-color: #ff0000;
+}
+
+#empty
+{
+  background-color: #0077BE;
+}

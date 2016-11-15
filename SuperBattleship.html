@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> <head>
+<title>Super Battleship</title>
+<script
+src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+<script src="SBConstants.js"></script>
+<script src="SuperBattleship.js"></script>
+<script src="CLIPlayer.js"></script>
+<script src="DumbAI.js"></script>
+<script src="CLIOnePlayerSuperBattleship.js"></script>
+<link rel="stylesheet" type="text/css" href="CLIOnePlayerSuperBattleship.css">
+</head>
+<body>
+<div id="map_panel">
+  <div id="map_view">
+    <div id="p1_view">P1 View</div>
+  </div>
+</div>
+<div id = "buttonList">
+  <button type = "button" class = "button" id = "shootAt"> Fire!</button>
+  <button type = "button" class = "button" id = "moveBackward"> Backward</button>
+  <button type = "button" class = "button" id = "moveForward">Forward</button>
+  <button type = "button" class = "button" id = "rotateCW"> Rotate CW</button>
+  <button type = "button" class = "button" id = "rotateCCW"> Rotate CCW</button>
+  <br>
+  <input type = "checkbox" class = "choice" id = "carrierR_Button" value = "Carrier">Carrier</>
+  <input type = "checkbox" class = "choice" id = "battleshipR_Button" value = "Battleship">Battleship</>
+  <input type = "checkbox" class = "choice" id = "cruiserR_Button" value = "Cruiser">Cruiser</>
+  <input type = "checkbox" class = "choice" id = "submarineR_Button" value = "Submarine">Submarine</>
+  <input type = "checkbox" class = "choice" id = "destroyerR_Button" value = "Destroyer">Destroyer</>
+  <br>
+  <br>
+  <div class = "playerOneTurnCounter">
+  </div>
+  <div class = "aiTurnCounter">
+    AI Turn Number: 0
+  </div>
+</div>
+<br>
+<table class = "fleetInfo" id = "fleetInfoTable">
+  <th>Ship</th>
+  <th>Position</th>
+  <th>Direction</th>
+  <th>Size</th>
+  <th>Status</th>
+</table>
+<br>
+<div class ="gameOutput">
+</div>
+</body> </html>
